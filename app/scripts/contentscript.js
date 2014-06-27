@@ -1,6 +1,8 @@
+/* globals Translitit */
 'use strict';
 
 
+var translitit = Translitit;
 chrome.storage.sync.get({
 	useTransliterator: true
 }, function(items) {
@@ -18,10 +20,10 @@ chrome.storage.sync.get({
 				if (node.nodeType === 1) {
 					// alert(node.id); // alert if we have a type 1 node
 					if (node.childElementCount === 0) {
-						var previousText = node.textContent ? node.textContent.trim() : "";
+						var previousText = node.textContent ? node.textContent.trim() : '';
 						if (previousText) {
 							// console.log(previousText);
-							var changedText = Translitit(previousText);
+							var changedText = translitit(previousText);
 							node.innerHTML = changedText;
 							node.title = previousText;
 						}
