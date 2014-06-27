@@ -279,7 +279,7 @@ module.exports = function (grunt) {
         compress: {
             dist: {
                 options: {
-                    archive: 'package/KartuliChromeExtension<%= config.manifest.version %>.zip'
+                    archive: 'package/fielddb-chrome-extension<%= config.manifest.version %>.zip'
                 },
                 files: [{
                     expand: true,

@@ -20,7 +20,7 @@
       "19": "images/icon-19.png",
       "38": "images/icon-38.png"
     },
-    "default_title": "KartuliChromeExtension",
+    "default_title": "LingSync",
     "default_popup": "options.html"
   },
   "options_page": "options.html",

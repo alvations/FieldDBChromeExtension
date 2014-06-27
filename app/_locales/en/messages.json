@@ -1,10 +1,10 @@
 {
   "appName": {
-    "message": "Kartuli Glasses",
+    "message": "LingSync Glasses",
     "description": "The name of the application"
   },
   "appDescription": {
-    "message": "Turn latin letters into kartuli",
+    "message": "Turn the web into your corpus",
     "description": "The description of the application"
   }
 }
